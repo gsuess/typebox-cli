@@ -6,6 +6,15 @@
     "type": "git",
     "url": "https://github.com/gsuess/typebox-cli"
   },
+  "keywords": [
+    "typebox",
+    "json",
+    "schema",
+    "validation",
+    "cli",
+    "codegen",
+    "typescript"
+  ],
   "main": "dist/index.js",
   "bin": {
     "typebox": "dist/cli.js"
