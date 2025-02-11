@@ -18,3 +18,15 @@ jobs:
         run: npm run test
       - name: Build
         run: npm run build
+      - name: Link
+        run: npm link
+      - name: Code Gen For tests
+        working-directory: spec
+        run: codegen.sh
+      - name: Git Diff
+        run: |
+          git diff --exit-code
+          if [ $? -ne 0 ]; then
+            echo "Schema validation failed. Please run 'npm run schema:project' and commit the changes."
+            exit 1
+          fi
