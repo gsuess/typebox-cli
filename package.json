@@ -31,7 +31,7 @@
     "prettier": "^3.3.3",
     "typescript": "^5.5.4",
     "typescript-eslint": "^8.21.0",
-    "vitest": "^2.0.5"
+    "vitest": "^3.0.5"
   },
   "scripts": {
     "type-check": "tsc --noEmit",
