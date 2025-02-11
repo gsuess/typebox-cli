@@ -15,7 +15,7 @@ jobs:
       - name: Type-check
         run: npm run type-check
       - name: Test
-        run: Echo there are not unit-tests yet.
+        run: echo There are not unit-tests yet.
 #        run: npm run test
       - name: Build
         run: npm run build
@@ -23,7 +23,7 @@ jobs:
         run: npm link
       - name: Code Gen For tests
         working-directory: spec
-        run: codegen.sh
+        run: ./codegen.sh
       - name: Git Diff
         run: |
           git diff --exit-code
