@@ -2,6 +2,10 @@
   "name": "typebox-cli",
   "version": "1.0.0-dev",
   "description": "CLI tool for various TypeBox and JSON Schema operations",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gsuess/typebox-cli"
+  },
   "main": "dist/index.js",
   "bin": {
     "typebox": "dist/cli.js"

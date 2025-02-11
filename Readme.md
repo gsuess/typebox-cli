@@ -1,6 +1,6 @@
 # TypeBox CLI
-[![Test](../../actions/workflows/test.yml/badge.svg)](../../actions/workflows/test.yml)
-[![Package Publication](../../actions/workflows/publish_package.yml/badge.svg)](../../actions/workflows/publish_package.yml)
+[![Test](https://github.com/gsuess/typebox-cli/actions/workflows/test.yml/badge.svg)](https://github.com/gsuess/typebox-cli/actions/workflows/test.yml)
+[![Package Publication](https://github.com/gsuess/typebox-cli/actions/workflows/publish_package.yml/badge.svg)](https://github.com/gsuess/typebox-cli/actions/workflows/publish_package.yml)
 
 ## Description
 
