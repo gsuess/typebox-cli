@@ -50,5 +50,6 @@
     "jiti": "^2.4.2",
     "commander": "^13.1.0",
     "@sinclair/typebox-codegen": "^0.10.5"
-  }
+  },
+  "license": "MIT"
 }
