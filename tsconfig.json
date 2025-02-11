@@ -1,0 +1,23 @@
+{
+  "$schema": "https://json.schemastore.org/tsconfig",
+
+  "rootDir": "./src",
+  "include": ["src" ],
+  "compilerOptions": {
+    "rootDir": "src",
+    "lib": ["ESNext"],
+    "module": "ESNext",
+    "moduleResolution": "Node",
+    "target": "es2022",
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "sourceMap": true,
+    "downlevelIteration": true,
+    "resolveJsonModule": true,
+    "outDir": "dist",
+    "declaration": true
+  }
+}
+

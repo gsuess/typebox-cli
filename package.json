@@ -1,0 +1,36 @@
+{
+  "name": "typebox-cli",
+  "version": "1.0.0-dev",
+  "description": "CLI tool for various TypeBox and JSON Schema operations",
+  "main": "dist/index.js",
+  "type": "module",
+  "devDependencies": {
+    "@eslint/js": "^9.19.0",
+    "@sinclair/typebox": "^0.34.16",
+    "@types/eslint": "^9.6.1",
+    "@types/node": "^22.10.10",
+    "eslint": "^9.19.0",
+    "eslint-config-prettier": "^10.0.1",
+    "eslint-plugin-prettier": "^5.2.3",
+    "prettier": "^3.3.3",
+    "typescript": "^5.5.4",
+    "typescript-eslint": "^8.21.0",
+    "vitest": "^2.0.5"
+  },
+  "scripts": {
+    "type-check": "tsc --noEmit",
+    "build": "tsc --build ./tsconfig-build.json",
+    "clean": "tsc --build --clean",
+    "lint": "eslint .",
+    "lint:fix": "eslint --fix .",
+    "prepublishOnly": "npm run build",
+    "test": "vitest"
+  },
+  "private": false,
+  "files": [
+    "dist"
+  ],
+  "dependencies": {
+    "jiti": "^2.4.2"
+  }
+}
